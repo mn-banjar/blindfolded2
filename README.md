@@ -37,7 +37,7 @@ The original source code uses kociemba package to solve the cube, it solves by f
 
 
 ## Usage
-After installing all the dependencies and setting your camra, this is the time to run blindfolded.py script
+After installing all the dependencies and setting your camera, this is the time to run blindfolded.py script
 
 
 First, you need to scan your cube in the correct orientations. This is the cube structure, the order of scanning the faces is not important
@@ -71,7 +71,7 @@ To make the scan press ``` space```  key to save the view and ``` ESC```  key af
 Second, you can see the solution sequences on the console, and the parity check to tell you if you need to apply the parity algorithm or not
 
 
-Third, a new frame will be generated that displays 2 drawn cubes for edge sequence and corner sequence. You can use ``` left```  and ``` right```  arrow keys for switching betweent the sequence items, and ``` up```  and ``` down```  arrow keys for switching between the edge and corner. the light gray color represents the current sequence.
+Third, a new frame will be generated that displays 2 drawn cubes for edge sequence and corner sequence. You can use ``` left```  and ``` right```  arrow keys for switching between the sequence items, and ``` up```  and ``` down```  arrow keys for switching between the edge and corner. the light gray color represents the current sequence.
 
 You can see the colors of the current buffer that are changing dynamically by arrow keys. Gray colors represent the target cubie, and pink color represents the swapping face
 
