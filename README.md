@@ -37,34 +37,13 @@ The original source code uses kociemba package to solve the cube, it solves by f
 
 
 ## Usage
+![cubeStructure](cubeStructure.png)
+
 After installing all the dependencies and setting your camera, this is the time to run blindfolded.py script
 
 
-First, you need to scan your cube in the correct orientations. This is the cube structure, the order of scanning the faces is not important
+First, you need to scan your cube in the correct orientations. This is the cube structure, the order of scanning the faces is not important. Notice that these are the default colors of the cube faces, you can change them by updating the ```notation``` dictionary on blindfolded.py script
 
-```
-	         |                |
-	         | U0    U1    U2 |
-	         |                |
-                 | U3    U4    U5 |
-	         |                |
-	         | U6    U7    U8 |
-	         |________________|
-|                |                |                |                |
-| L0    L1    L2 | F0    F1    F2 | R0    R1    R2 | B0    B1    B2 |
-|                |                |                |                |
-| L3    L4    L5 | F3    F4    F5 | R3    R4    R5 | B3    B4    B5 |
-|                |                |                |                |
-| L6    L7    L8 | F6    F7    F8 | R6    R7    R8 | B6    B7    B8 |
-|                |________________|                |                |
-	         |                |
-	         | D0    D1    D2 |
-	         |                |
-	         | D3    D4    D5 |
-	         |                |
-	         | D6    D7    D8 |
-	         |                |
-``` 
 To make the scan press ``` space```  key to save the view and ``` ESC```  key after finishing
 
 
